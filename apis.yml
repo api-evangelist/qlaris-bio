@@ -1,7 +1,13 @@
 aid: qlaris-bio
 name: Qlaris Bio
-description: Qlaris Bio is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Qlaris Bio is a clinical-stage biotechnology company focused on developing first-in-class
+  therapies for ophthalmic diseases, with a mission to preserve vision and prevent blindness. Its lead
+  candidate, QLS-111, uses a novel mechanism of action to lower intraocular pressure by targeting the
+  distal outflow pathway, and is being evaluated for primary open-angle glaucoma, ocular hypertension,
+  and elevated IOP associated with conditions such as Sturge-Weber Syndrome. The company was surfaced as
+  a portfolio company of Canaan Partners and added to the API Evangelist network. As a clinical-stage
+  drug developer, Qlaris Bio publishes a corporate website but no public developer, API, or product
+  integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/qlaris-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +15,53 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Ophthalmology
+- Glaucoma
+- Clinical Stage
+- Life Sciences
+- Healthcare
+image: https://qlaris.bio/
 apis: []
+common:
+- type: Website
+  url: https://qlaris.bio/
+- type: About
+  url: https://qlaris.bio/about-us/
+- type: Blog
+  url: https://qlaris.bio/news-events/
+- type: PrivacyPolicy
+  url: https://qlaris.bio/privacy-policy/
+- type: TermsOfService
+  url: https://qlaris.bio/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/qlaris-bio-inc/
+- type: DomainSecurity
+  url: security/qlaris-bio-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
